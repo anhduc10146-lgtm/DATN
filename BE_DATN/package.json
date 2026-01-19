@@ -1,0 +1,37 @@
+{
+  "name": "be_datn",
+  "version": "1.0.0",
+  "description": "web đọc truyện",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/index.js"
+  },
+  "author": "Bui Duc Duc",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "1.4.0",
+    "bcrypt": "5.1.0",
+    "chalk": "^4.1.2",
+    "cookie-parser": "1.4.6",
+    "cors": "2.8.5",
+    "dotenv": "16.0.3",
+    "express": "4.18.2",
+    "express-form-data": "2.0.22",
+    "express-handlebars": "6.0.6",
+    "fs": "0.0.1-security",
+    "googleapis": "127.0.0",
+    "jade": "^1.11.0",
+    "jsonwebtoken": "9.0.0",
+    "mongoose": "6.8.1",
+    "morgan": "1.10.0",
+    "nodemailer": "^6.9.16",
+    "nodemon": "2.0.20",
+    "open": "8.4.0",
+    "path": "0.12.7",
+    "sharp": "^0.33.5",
+    "socket.io": "^4.8.1",
+    "stream": "^0.0.3",
+    "swagger-ui-express": "4.6.0"
+  }
+}
