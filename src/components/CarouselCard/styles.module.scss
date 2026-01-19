@@ -1,0 +1,45 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 16px;
+
+    .title {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: block;
+        width: 100%;
+        font-size: 21px;
+        font-weight: 500;
+        color: #ED462F
+    }
+
+    .button {
+        font-size: 12px;
+        background-color: #532FE6;
+        color: white;
+    }
+}
+
+.coverImage {
+    height: auto;
+    width: 240px;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+.subInfo {
+    color: #6C757D;
+    font-size: 14px;
+    text-align: left;
+    margin-top: 8px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    flex-grow: 1;
+    /* Đảm bảo thẻ card có thể giãn ra khi cần thiết */
+}

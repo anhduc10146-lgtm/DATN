@@ -1,0 +1,35 @@
+@keyframes blinkColors {
+    0% {
+        color: #FF0000;
+    }
+
+    25% {
+        color: #00FF00;
+    }
+
+    50% {
+        color: #0000FF;
+    }
+
+    75% {
+        color: #FFFF00;
+    }
+
+    100% {
+        color: #FF0000;
+    }
+}
+
+.the-loai-1 {
+    padding: 10px;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: bold;
+}
+
+.the-loai-1:hover {
+    animation: blinkColors 1.5s infinite;
+    font-weight: bold;
+}

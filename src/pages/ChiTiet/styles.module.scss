@@ -1,0 +1,120 @@
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #333;
+    padding-bottom: 40px;
+    min-height: 100vh;
+
+    .title_1 {
+        width: 100%;
+        max-width: 1024px;
+        height: 100px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+
+        >h1 {
+            color: #ED462F;
+        }
+    }
+
+    .content {
+        display: flex;
+        flex-direction: row;
+        max-width: 1024px;
+        width: 100%;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+
+        .left {
+            flex: 1;
+            margin-right: 20px;
+        }
+
+        .right {
+            flex: 2;
+        }
+
+        .right h1 {
+            color: #FFD700;
+        }
+
+        .right p {
+            color: #fff;
+        }
+
+        .cover_image {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+    }
+
+    @media (max-width: 1024px) {
+        .content {
+            flex-direction: column;
+            width: auto;
+        }
+
+        .left {
+            margin-right: 0;
+            margin-bottom: 20px;
+        }
+    }
+
+    .action {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        max-width: 1024px;
+        padding: 20px;
+        margin-top: 20px;
+    }
+
+    .leftAction {
+        flex: 1;
+        margin-right: 20px;
+        padding: 10px;
+        border-radius: 8px;
+        color: #2980B9;
+    }
+
+    .rightAction {
+        flex: 1;
+        padding: 10px;
+        border-radius: 8px;
+        color: lightseagreen;
+    }
+
+    .leftAction ul,
+    .rightAction ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .leftAction li,
+    .rightAction li {
+        padding: 10px 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    .leftAction li:last-child,
+    .rightAction li:last-child {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    @media (max-width: 1024px) {
+        .action {
+            flex-direction: column;
+        }
+
+        .leftAction {
+            margin-right: 0;
+            margin-bottom: 20px;
+        }
+    }
+}
